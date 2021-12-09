@@ -1,0 +1,19 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "node web app ",
+  "main": "indexNode.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "nemesis Aquib",
+  "license": "ISC",
+  "engines": {
+    "node": "10.x"
+  },
+  "dependencies": {
+    "firebase": "^9.6.0",
+    "nodemon": "^2.0.15",
+    "request": "^2.88.2"
+  }
+}
