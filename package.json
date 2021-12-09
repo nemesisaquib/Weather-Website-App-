@@ -8,8 +8,12 @@
   },
   "author": "nemesis Aquib",
   "license": "ISC",
+
   "engines": {
-    "node": "10.x"
+    "node": "16.13.0",
+    
+      "npm": "8.1.4"
+    
   },
   "dependencies": {
     "firebase": "^9.6.0",
