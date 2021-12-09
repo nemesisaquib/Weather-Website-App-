@@ -52,4 +52,8 @@ const server = http.createServer((req, res) => {
 
 server.listen(port,()=>{  // do not add localhost here if you are deploying it
     console.log("server listening to port "+port);
+<<<<<<< HEAD
 });
+=======
+});
+>>>>>>> d8ab64950fbe5057b7ad6828699696974caecbec
