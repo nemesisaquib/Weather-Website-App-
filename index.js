@@ -50,10 +50,12 @@ const server = http.createServer((req, res) => {
 });
 
 
-server.listen(port,()=>{  // do not add localhost here if you are deploying it
-    console.log("server listening to port "+port);
-<<<<<<< HEAD
+const port = process.env.PORT || 3000
+
+
+
+
+
+server.listen(port, () => {
+  console.log(`App listening at http://localhost:${port}`)
 });
-=======
-});
->>>>>>> d8ab64950fbe5057b7ad6828699696974caecbec
